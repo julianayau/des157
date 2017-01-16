@@ -49,17 +49,29 @@ table {
 
 /* end reset */
 
+/*@charset "UTF-8";*/
+
 body{
+
+
   font-family: 'Frank Ruhl Libre', sans-serif;
   font-size: 25px;
 
-  color: black;
+  color: white;
   text-decoration: none;
+
+	background-color: #000;
+
 }
 
-img{
+#mySketch{
+	width: 800px;
+
+
 	display: block;
 	margin: auto;
+
+
 }
 
 h1{
@@ -74,14 +86,15 @@ h2{
 }
 
  div {
+
   float: left;
-  width: 300px;
-	padding-left: 100px;
+
+	padding-left: 150px;
 	padding-top: 100px;
 }
 
 a{
-  color: black;
+  color: white;
   text-decoration: none;
 
 }
@@ -90,11 +103,31 @@ nav{
   line-height: 40px;
 }
 
+#box {
+	position: fixed;
+	padding: 15px;
+	float: right;
+	bottom: 0;
+	right:0;
+
+	width: 140px;
+  height: 20px;
+
+  border: 1px solid white;
+
+	text-align: center;
+}
+
+
+#validator{
+	float: left;
+	padding-left: 100px;
+	padding-bottom: 100px;
+
+}
 
 footer{
-  float: right;
-  clear: left;
+	width: 1400px;
 
-  padding: 100px;
 
 }

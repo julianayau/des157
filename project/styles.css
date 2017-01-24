@@ -65,21 +65,24 @@ ul li{
 
 
 article{
-	width: 1300px;
-	padding-left: 100px;
-	padding-top: 100px;
+	width: 600px;
+	padding-left: 150px;
+	padding-top: 50px;
 	padding-right: 100px;
 
 
   line-height: 25px;
   font-size: 20px;
-
 }
 
+img{
+	padding-top: 50px;
+}
 h2{
-	text-align: left;
+	text-align: center;
 	font-size: 25px;
 	margin-bottom: 40px;
+
 }
 
 a{

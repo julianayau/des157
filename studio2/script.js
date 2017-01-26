@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     document.form.onsubmit = processForm;
     document.form.onreset= clearForm;
     //define process function
-    function processform(){
+    function processForm(){
       //store body part singular in variable
       var userBody = document.form.userBody.value;
       var userNoun1 = document.form.userNoun1.value;

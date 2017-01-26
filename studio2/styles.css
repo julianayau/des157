@@ -65,10 +65,11 @@ form {
   background-color: black;
   opacity: 0.8;
 
+
 }
 article{
   padding-top: 100px;
-  padding-left: 150px
+  padding-left: 150px;
 }
 
 label {
@@ -78,7 +79,16 @@ label {
   margin-top: 30px;
 
 }
-input[type="reset"], input[type="submit"]{
+input[type="reset"], input[type="submit"] {
+  position:relative;
+  left:1.77in;
+  top:14px;
+  padding:12px;
+  border:none; /*remove default*/
+  border-radius:3px;
+  border-bottom:4px orange solid;
+  background-color:antiquewhite;
+  color:#333;
+  font-weight:bold;
   font-size:18px;
-  font-family: 'Covered By Your Grace', cursive;
 }

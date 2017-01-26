@@ -48,6 +48,7 @@ table {
 }
 
 /* end reset */
+
 h1 {
   font-family: 'Permanent Marker', cursive;
   font-size: 90px;
@@ -56,34 +57,45 @@ h1 {
   padding: 40px;
   padding-bottom: 50px;
 }
-.images{
+section{
+	position: absolute;
+	bottom: 50px;
+	right: 0px;
+
+	top: 200px;
+	width: 600px;
 	display: inline;
-
-	width: 400px;
 	float: right;
+
+
 	padding-right: 100px;
-	padding-top: 100px;
-
-
+	padding-bottom: 500px;
 
 
 }
 
-article{
-	float: left;
-  width: 600px;
-	padding-left: 100px;
-  margin: auto;
-	padding-top: 100px;
 
+article{
+	position: relative;
+	width: 1300px;
+	padding-left: 100px;
+	padding-top: 100px;
+	padding-right: 100px;
+
+	
   line-height: 25px;
   font-size: 20px;
 
 }
 
+article p{
+width: 600px;
+
+}
+
 h2{
 	text-align: center;
-	margin-bottom: 25px;
+	margin-bottom: 70px;
 	font-size: 30px;
 }
 p{
@@ -120,8 +132,8 @@ a{
 }
 
 footer{
-
-	padding-top: 900px;
+	overflow: hidden;
+	padding-top: 100px;
 	width: 1400px;
 
 

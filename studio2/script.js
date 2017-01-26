@@ -6,7 +6,6 @@ document.form.onsubmit = processForm;
 //define process function
 function processform(){
   //store body part singular in variable
-  var ddd = document.getElementById('userBody')
   var userBody = document.form.userBody.value;
   var userNoun1 = document.form.userNoun1.value;
   var userNoun2 = document.form.userNoun2.value;

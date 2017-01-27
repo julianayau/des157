@@ -43,6 +43,7 @@ table {
 }
 
 body{
+	width: 1400px;
   background-color: black;
   background-image: url("images/drakebackground.jpg");
   color: #FFD700;
@@ -52,6 +53,7 @@ body{
 h1 {
   font-size: 100px;
   text-align: center;
+	padding-top: 50px;
 }
 
 h2{
@@ -64,6 +66,8 @@ form {
 
   background-color: black;
   opacity: 0.8;
+
+	margin-bottom: 100px;
 
 
 }
@@ -83,13 +87,34 @@ input[type="reset"], input[type="submit"] {
 	font-family: 'Covered By Your Grace', cursive;
   position:relative;
   left:1.77in;
-  top:14px;
   padding:12px;
   border:none; /*remove default*/
   border-radius:3px;
-  border-bottom:4px orange solid;
+  border-bottom:4px yellow; solid;
   background-color:antiquewhite;
   color:#333;
   font-weight:bold;
   font-size:18px;
+
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#error{
+	width: 500px;
+	font-size: 30px;
+	padding-left: 400px;
+	position: relative;
+	bottom: 280px;
+	left: 50px;
+	line-height: 45px;
+}
+#song{
+	width: 500px;
+	font-size: 30px;
+	padding-left: 400px;
+	position: relative;
+	bottom: 280px;
+	left: 50px;
+	line-height: 45px;
 }

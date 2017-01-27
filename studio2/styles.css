@@ -80,6 +80,7 @@ label {
 
 }
 input[type="reset"], input[type="submit"] {
+	font-family: 'Covered By Your Grace', cursive;
   position:relative;
   left:1.77in;
   top:14px;

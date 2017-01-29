@@ -1,120 +1,121 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
-body{
-	width: 1400px;
-  background-color: black;
-  background-image: url("images/drakebackground.jpg");
-  color: #FFD700;
-  font-family: 'Covered By Your Grace', cursive;
-
+body {
+    width: 1400px;
+    background-color: black;
+    color: #FFD700;
+    font-family: 'Covered By Your Grace', cursive;
 }
+
 h1 {
-  font-size: 100px;
-  text-align: center;
-	padding-top: 50px;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 50px;
 }
 
-h2{
-  font-size: 30px;
-  text-align: center;
+h2 {
+    font-size: 30px;
+    text-align: center;
 }
+
 form {
-  width: 1000px;
-  border: 1px solid #c5b358 ;
-
-  background-color: black;
-  opacity: 0.8;
-
-	margin-bottom: 100px;
-
-
+    width: 1000px;
+    border: 1px solid #c5b358;
+    background-color: black;
+    opacity: 0.8;
+    margin-bottom: 100px;
+    position: relative;
+		padding-bottom: 100px;
 }
-article{
-  padding-top: 100px;
-  padding-left: 150px;
+
+article {
+    padding-top: 100px;
+    padding-left: 150px;
 }
 
 label {
-  display: inline-block;
-  font-size: 50px;
-  margin-left: 50px;
-  margin-top: 30px;
-
-}
-input[type="reset"], input[type="submit"] {
-	font-family: 'Covered By Your Grace', cursive;
-  position:relative;
-  left:1.77in;
-  padding:12px;
-  border:none; /*remove default*/
-  border-radius:3px;
-  border-bottom:4px yellow; solid;
-  background-color:antiquewhite;
-  color:#333;
-  font-weight:bold;
-  font-size:18px;
-
-	margin-top: 30px;
-	margin-bottom: 30px;
+    display: inline-block;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
 }
 
-#error{
-	width: 500px;
-	font-size: 30px;
-	padding-left: 400px;
-	position: relative;
-	bottom: 280px;
-	left: 50px;
-	line-height: 45px;
+#reset, #submit {
+    font-family: 'Covered By Your Grace', cursive;
+    position: relative;
+    left: 1.77in;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 4px yellow; solid;
+    background-color: antiquewhite;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+		position: absolute;
 }
-#song{
-	width: 500px;
-	font-size: 30px;
-	padding-left: 400px;
-	position: relative;
-	bottom: 280px;
-	left: 50px;
-	line-height: 45px;
+
+#reset {
+    position: absolute;
+    left: 60px;
+
+}
+
+#error {
+    width: 500px;
+    font-size: 30px;
+    position: absolute;
+    bottom: 200px;
+    left: 500px;
+    line-height: 45px;
+}
+
+#song {
+    width: 500px;
+    font-size: 25px;
+    padding-left: 400px;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    line-height: 45px;
+
 }

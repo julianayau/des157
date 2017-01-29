@@ -53,15 +53,15 @@ h1 {
 }
 
 section {
-    position: absolute;
-    bottom: 50px;
-    right: 0px;
-    top: 200px;
+    position: relative;
+    bottom:300px;
+
+
     width: 600px;
     display: inline;
     float: right;
-    padding-right: 100px;
-    padding-bottom: 500px;
+    /*padding-right: 100px;
+    padding-bottom: 500px;*/
 }
 
 article {
@@ -78,8 +78,13 @@ article p {
     width: 600px;
 }
 
+#blog1img{
+  position: relative;
+  bottom: 550px;
+}
+
 h2 {
-    text-align: center;
+    padding-left: 50px;
     margin-bottom: 70px;
     font-size: 30px;
 }

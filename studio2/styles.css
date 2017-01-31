@@ -61,7 +61,7 @@ form {
     opacity: 0.8;
     margin-bottom: 100px;
     position: relative;
-		padding-bottom: 100px;
+    padding-bottom: 100px;
 }
 
 article {
@@ -83,7 +83,8 @@ label {
     padding: 12px;
     border: none;
     border-radius: 3px;
-    border-bottom: 4px yellow; solid;
+    border-bottom: 4px yellow;
+    solid;
     background-color: antiquewhite;
     color: #333;
     font-weight: bold;
@@ -91,13 +92,12 @@ label {
     text-decoration: none;
     margin-top: 30px;
     margin-bottom: 30px;
-		position: absolute;
+    position: absolute;
 }
 
 #reset {
     position: absolute;
     left: 60px;
-
 }
 
 #error {
@@ -120,11 +120,11 @@ label {
 }
 
 footer {
-	text-decoration: none;
-	padding-left:  100px;
-	padding-bottom: 100px;
+    text-decoration: none;
+    padding-left: 100px;
+    padding-bottom: 100px;
 }
 
-footer a{
- color: #FFD700;
+footer a {
+    color: #FFD700;
 }

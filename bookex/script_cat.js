@@ -14,6 +14,7 @@ function animate(time) {
   lastTime = time;
   cat.style.top = (Math.sin(angle) * 20) + 40 + "px";
   cat.style.left = (Math.cos(angle) * 200) + 250 + "px";
+  // plus pi so that hat is opposite of cat
   hat.style.top = (Math.sin(angle+Math.PI) * 20) + 40 + "px";
   hat.style.left = (Math.cos(angle+Math.PI) * 200) + 250 + "px";
   requestAnimationFrame(animate);

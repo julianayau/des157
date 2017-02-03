@@ -3,143 +3,266 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
+
 
 /************ end reset **********/
-body{
-  width: 100%;
-  background-color: #F2EFE2;
+
+body {
+    width: 100%;
+    background-image:url("images/background.jpg");
 }
+
 article {
     position: relative;
+}
 
-}
-aside {
-    display: none;
-}
 img:hover {
     /*cursor: pointer;*/
     transform: rotate(360deg);
     transition: all 2.0s ease-in-out 0s;
-
     animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
     transform: translate3d(0, 0, 0);
     backface-visibility: hidden;
     perspective: 1000px;
 }
 
-aside{
-  position: absolute;
-  top: 250px;
-  left: 200px;
-  width: 30%;
-  border: 1px solid green ;
-  background-color: transparent;
-
+aside {
+    display: none;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    width: 30%;
 }
 
-p{
-  opacity: none;
+p {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    font-family: 'Gochi Hand', cursive;
+    color: white;
+    font-size: 25px;
+    line-height: 30px;
 }
 
-#princessbox{
-  position: absolute;
-  left: 50px;
+#box1 {
+    position: absolute;
+    top: -85px;
+    left: -40px;
+    width: 235px;
+    height: 335px;
+    display: inline-block;
+    opacity: 0.3;
+    background-color: black;
 }
 
-#pbbox{
-  position: absolute;
-  left: 430px;
-  top: 40px;
+#box2 {
+    position: absolute;
+    top: -85px;
+    left: 345px;
+    width: 235px;
+    height: 335px;
+    display: inline-block;
+    opacity: 0.3;
+    background-color: black;
 }
 
-#gsbox{
-  position: absolute;
-  left: 810px;
-}
-#kravebox{
-  position: absolute;
-  top: 600px;
-  left: 670px;
-}
-
-#ffbox{
-  position: absolute;
-  top: 620px;
-  left: 200px;
-}
-#hideprincess{
-  display: none;
+#box3 {
+    position: absolute;
+    top: -83px;
+    left: 730px;
+    width: 235px;
+    height: 328px;
+    display: inline-block;
+    opacity: 0.4;
+    background-color: black;
 }
 
-#hidepb{
-  display: none;
+#box4 {
+    position: absolute;
+    top: 480px;
+    left: 580px;
+    width: 235px;
+    height: 328px;
+    display: inline-block;
+    opacity: 0.4;
+    background-color: black;
 }
 
-#hidegs{
-  display: none;
-}
-#hidekrave{
-  display: none;
-}
-#hideff{
-  display: none;
-}
-
- #close{
-  cursor: pointer;
-  position: absolute;
-  top:100%;
-  right:50px;
+#box5 {
+    position: absolute;
+    top: 500px;
+    left: 130px;
+    width: 235px;
+    height: 328px;
+    display: inline-block;
+    opacity: 0.4;
+    background-color: black;
 }
 
-footer{
-
-
+#text1 {
+    top: -80px;
+    left: -10px;
 }
 
+#text2 {
+    top: 50px;
+    left: 360px;
+}
+
+#text3 {
+    top: -10px;
+    left: 750px;
+}
+
+#text4 {
+    top: 550px;
+    left: 620px;
+}
+
+#text5 {
+    top: 610px;
+    left: 150px;
+}
+
+#princessbox {
+    position: absolute;
+    left: 50px;
+}
+
+#pbbox {
+    position: absolute;
+    left: 430px;
+    top: 40px;
+}
+
+#gsbox {
+    position: absolute;
+    left: 810px;
+}
+
+#kravebox {
+    position: absolute;
+    top: 600px;
+    left: 670px;
+}
+
+#ffbox {
+    position: absolute;
+    top: 620px;
+    left: 200px;
+}
+
+#hideprincess {
+    display: none;
+}
+
+#hidepb {
+    display: none;
+}
+
+#hidegs {
+    display: none;
+}
+
+#hidekrave {
+    display: none;
+}
+
+#hideff {
+    display: none;
+}
+
+#close1 {
+    cursor: pointer;
+    position: absolute;
+    left: 170px;
+    top: -80px;
+    color: white;
+}
+
+#close2 {
+    cursor: pointer;
+    position: absolute;
+    left: 550px;
+    top: -80px;
+    color: white;
+}
+
+#close3 {
+    cursor: pointer;
+    position: absolute;
+    left: 930px;
+    top: -70px;
+    color: white;
+}
+
+#close4 {
+    cursor: pointer;
+    position: absolute;
+    left: 780px;
+    top: 500px;
+    color: white;
+}
+
+#close5 {
+    cursor: pointer;
+    position: absolute;
+    left: 330px;
+    top: 510px;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    top: 1200px;
+    left: 50px;
+    font-family:'Gochi Hand', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
 
 @keyframes shake {
     10%, 90% {

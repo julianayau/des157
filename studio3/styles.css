@@ -160,7 +160,58 @@ p {
     top: 610px;
     left: 150px;
 }
+/******** description text *******/
+#des1{
+	display: inline-block;
+	position: absolute;
+	/*white-space: nowrap;*/
+	font-size: 20px;
+	top: 520px;
+	left: 190px;
+	color: black;
+}
 
+#des2{
+	display: inline-block;
+	position: absolute;
+	/*white-space: nowrap;*/
+	font-size: 20px;
+	top: 520px;
+	left: 570px;
+	color: black;
+}
+
+#des3{
+	display: inline-block;
+	position: absolute;
+	/*white-space: nowrap;*/
+	font-size: 20px;
+	top: 520px;
+	left: 960px;
+	color: black;
+}
+
+#des4{
+	display: inline-block;
+	position: absolute;
+	/*white-space: nowrap;*/
+	font-size: 20px;
+	top: 1120px;
+	left: 810px;
+	color: black;
+}
+
+#des5{
+	display: inline-block;
+	position: absolute;
+	/*white-space: nowrap;*/
+	font-size: 20px;
+	top: 1120px;
+	left: 360px;
+	color: black;
+}
+
+/***** position images *****/
 #princessbox {
     position: absolute;
     left: 50px;
@@ -251,7 +302,7 @@ p {
 
 footer {
     position: absolute;
-    top: 1200px;
+    top: 1350px;
     left: 50px;
     font-family:'Gochi Hand', cursive;
     font-size: 20px;

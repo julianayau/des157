@@ -47,7 +47,9 @@ table {
 body {
     width: 100%;
     background-image:url("images/background.jpg");
+    font-family: 'Gochi Hand', cursive;
 }
+
 
 article {
     position: relative;
@@ -75,7 +77,6 @@ p {
     position: absolute;
     width: 200px;
     height: 300px;
-    font-family: 'Gochi Hand', cursive;
     color: white;
     font-size: 25px;
     line-height: 30px;
@@ -304,7 +305,6 @@ footer {
     position: absolute;
     top: 1350px;
     left: 50px;
-    font-family:'Gochi Hand', cursive;
     font-size: 20px;
     text-decoration: none;
     color: black;

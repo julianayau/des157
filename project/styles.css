@@ -65,7 +65,7 @@ ul li{
 
 
 article{
-	width: 600px;
+	width: 75%;
 	padding-left: 150px;
 	padding-top: 50px;
 	padding-right: 100px;
@@ -74,6 +74,7 @@ article{
   line-height: 25px;
   font-size: 20px;
 }
+
 
 img{
 	padding-top: 50px;

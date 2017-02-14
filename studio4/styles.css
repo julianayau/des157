@@ -81,6 +81,7 @@ h1{
     position: relative;
     left: 260px;
     top: 460px;
+    opacity: 0;
 }
 
 #message1 {
@@ -102,6 +103,7 @@ h1{
     position: relative;
     left: 900px;
     top: 390px;
+    opacity: 0;
 }
 
 #heart2 {
@@ -154,6 +156,7 @@ h1{
     position: relative;
     left: 360px;
     top: 920px;
+    opacity: 0;
 }
 
 #heart4 {
@@ -185,6 +188,7 @@ h1{
     left: 790px;
     top: 870px;
     padding-bottom: 50px;
+    opacity: 0;
 }
 
 footer {

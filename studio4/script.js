@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     // mouse over inital message
     heart1.addEventListener('mouseover', function() {
         msgTimer = setTimeout(showinitialMsg1, 1000);
-        initialMsg1.style.opactiiy = 0;
+        initialMsg1.style.opacity = 0;
         heart1.style.cursor = 'pointer';
     });
 
@@ -38,8 +38,11 @@ document.addEventListener("DOMContentLoaded", function(event) {
         heart1.src = "images/heart1.gif";
         pixelInterval = setInterval(moveDiv, 100);
     });
+    heart1.addEventListener('mouseout', function() {
+        heart1.src = "images/reverseheart1.gif";
+        clearInterval(pixelInterval);
 
-
+    });
 
 
     function moveDiv() {
@@ -57,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     heart2.addEventListener('mouseover', function() {
         msgTimer = setTimeout(showinitialMsg2, 1000);
-        initialMsg2.style.opactiiy = 0;
+        initialMsg2.style.opacity = 0;
         heart2.style.cursor = 'pointer';
     });
 
@@ -86,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     heart3.addEventListener('mouseover', function() {
         msgTimer = setTimeout(showinitialMsg3, 1000);
-        initialMsg3.style.opactiiy = 0;
+        initialMsg3.style.opacity = 0;
         heart3.style.cursor = 'pointer';
     });
 
@@ -113,10 +116,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     });
 
 
-
     heart4.addEventListener('mouseover', function() {
         msgTimer = setTimeout(showinitialMsg3, 1000);
-        initialMsg4.style.opactiiy = 0;
+        initialMsg4.style.opacity = 0;
         heart3.style.cursor = 'pointer';
     });
 

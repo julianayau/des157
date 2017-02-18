@@ -39,6 +39,7 @@ table {
 /********** End css reset *******/
 body{
   font-size: 20px;
+  background: black;
 
 }
 #mapid {

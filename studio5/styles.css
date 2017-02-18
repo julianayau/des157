@@ -42,13 +42,13 @@ body{
   right: 50px;
   width: 1440px;
   font-size: 20px;
-  
+
 }
 #mapid {
   margin: auto;
   top: 100px;
   left: 250px;
-  height: 700px;
+  height: 500px;
 }
 
 footer {

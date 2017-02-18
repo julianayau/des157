@@ -43,8 +43,8 @@ body{
 }
 #mapid {
   width: 400px;
+  margin: auto;
   top: 100px;
-  left: 250px;
   height: 500px;
 }
 

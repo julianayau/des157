@@ -48,16 +48,64 @@ table {
 }
 
 /************ end css reset **********/
+/********** start index.html **********/
+body{
+	color: white;
+	font-family: Tahoma;
+
+}
+#index{
+	background-image: url("images/index.jpg");
+}
+
+header {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 120px;
+
+	position: relative;
+	padding-top: 200px;
+
+}
+
+#title{
+	position: absolute;
+	width: 1438px;
+	height: 304px;
+	opacity: 0.8;
+	background-color: #813737;
+	top: 150px;
+}
+
+aside{
+	font-size: 25px;
+}
 
 h1{
   text-align: center;
   padding-top: 100px;
   font-size: 35px;
 }
+
 section{
   font-size: 30px;
 }
 
+button{
+	height: 58px;
+	width: 282px;
+	font-size: 20px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 5px 5px 5px #000000;
+	background-color: #993333;
+
+	border: none;
+}
+
+button a{
+	color: white;
+}
 form{
   padding-top: 150px;
   text-align: center;
@@ -74,22 +122,144 @@ form{
   padding-top: 100px;
 }
 
-/********** end body *********/
+.nav{
+	width: 1440px;
+	height: 56px;
+	background-color: #813737;
 
-
+	position: absolute;
+	bottom: 675px;
+}
 
 nav{
-  padding-right: 20px;
-  float: right;
+	float: right;
+	position: relative;
+	bottom: 325px;
+	right: 80px;
 }
+
 a {
   text-decoration: none;
 }
 
-.next{
-  float: right;
-  margin-top: 50px;
-  margin-right: 300px;
+
+/********** end index.html **********/
+/********** start client_f1.html **********/
+.title_forms{
+	position: relative;
+	float: left;
+	bottom: 200px;
+	left: 100px;
+
+}
+#f1{
+	background-image: url("images/f1.jpg");
 }
 
-/********** end nav **********/
+.form_back{
+	width: 1000;
+	height: 280px;
+	margin-top: 200px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-bottom: 100px;
+	padding-bottom: 200px;
+	background-color: #813737;
+	opacity: 0.8;
+}
+
+
+.form_questions{
+
+	line-height: 35px;
+	text-align: left;
+}
+
+.back{
+	float: left;
+	font-size: 18px;
+	height: 40px;
+	width: 150px;
+	margin-top: 50px;
+	margin-right: 300px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 5px 5px 5px #000000;
+}
+
+.next{
+  float: right;
+	font-size: 18px;
+	height: 40px;
+	width: 150px;
+  margin-top: 50px;
+  margin-right: 300px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 5px 5px 5px #000000;
+
+
+}
+
+/******** end forms *******/
+/********* start client results *******/
+
+section p{
+	color: black;
+	font-size: 16px;
+}
+
+h2{
+	position: relative;
+
+}
+#page{
+	width: 95%;
+}
+
+.preferences{
+	position: relative;
+	margin-left: 50px;
+	margin-top: 100px;
+	width: 20%;
+	height: 682px;
+	background-color: #813737;
+}
+
+h2{
+	position: absolute;
+	font-size: 20px;
+
+}
+.profile_pic{
+	padding-left: 400px;
+	margin-top: -500px;
+	width: 25%;
+
+}
+
+
+
+.profile_results{
+	position: absolute;
+	margin-left: 600px;
+	margin-top: -350px;
+	width: 25%;
+	height: 694px;
+	border: 1px solid #813737 ;
+}
+
+.profile_results p{
+	position: relative;
+
+}
+.connect_section{
+	float:right;
+	width: 25%;
+}
+
+.connect{
+
+	font-size: 18px;
+	height: 40px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 5px 5px 5px #000000;
+}

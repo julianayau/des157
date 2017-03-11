@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <title>CoachFit</title>
     <link href="styles.css" rel="stylesheet">
-
-
+    <link href="eric.css" rel="stylesheet">
+    <script src= "trainers.js" rel="stylesheet"></script>
 </head>
+<body>
 
-<body id="index">
-  <div id="title"></div>
+<div id="homepage">
     <header>
          C O A C H F I T <br>
          <aside>
@@ -20,23 +20,99 @@
 
     <div class="nav"></div>
     <nav>
-      <ul><li> <a herf="#"> Login</a></li> </ul>
+      <ul><li> <a href="#"> Login </a></li> </ul>
     </nav>
     <section id=coach>
       <h1>FIND A COACH</h1><br>
-      <button type="button"><a href="client_f1.html"> GET STARTED</a></button>
+      <a href="#" id="client_start"> GET STARTED</a>
     </section>
 
     <section id=client>
       <h1>FIND A CLIENT</h1><br>
-      <button type="button"><a href="coach_f1.html"> GET STARTED</a></button>
+      <a href="#" id="coach_start"> GET STARTED</a>
     </section>
+</div>
+
+<div id="f1">
+  <nav>
+    <ul><li> <a href="#">C O A C H F I T</a>  </li>  </ul>
+    <ul><li> <a href="#"> Login </a>  </li>  </ul>
+  </nav>
+<h1> Let's Answer Some Questions About Yourself!</h1>
+<form name="form1">
+  <div>
+    <label> Name:</label>
+    <input type="text" name ="client_name"/>
+  </div>
+   Username: <input type = "text" name = "client_username"><br>
+   Address: <input type = "text" name = "client_address"><br>
+   City: <input type = "text" name = "client_city"><br>
+   State: <input type = "text" name = "client_state"><br>
+   Zip Code: <input type = "text" name = "client_zipcode"><br>
+   Password: <input type = "text" name = "client_password"><br>
+   Verify Passowrd: <input type = "text" name = "client_verifypassword"><br>
+   <input type="radio" name="client_gender"> Male<br>
+   <input type="radio" name="client_gender" > Female<br>
+   <p>
+       <a href="#" id="next">NEXT </a>
+   </p>
+</form>
+</div>
+
+<div id="f2">
+  <nav>
+      <ul><li> <a class="home" href="index.html"> C O A C H F I T </a></li>  </ul>
+    <ul><li> <a href="#"> Login</a>  </li>  </ul>
+  </nav>
+<h1 class="title_forms"> CLIENT QUESTIONS </h1>
+
+<form name="form2">
+    <label>What is your fitness/ health goal?</label>
+    <select id= "client_goal">
+      <option   value="lose_body_fat"> Lose Body Fat<br>
+      <option value = "gain_muscle"> Gain Muscle<br>
+      <option   value= "reverse_diet" > Reverse Diet<br>
+      <option   value="bodybuilding" > Bodybuilding<br>
+      <option   value ="powerlifting"> Powerlifting<br>
+    </select>
 
 
+    Dieting Style?
+    <select id="client_diet">
+        <option value="iifym"> IIFYM </option>
+        <option value="mealplan"> Meal Plan</option>
+      </select>
 
-    <footer>
 
-    </footer>
+    Preference Of Coaching?
+    <select id ="client_coach" >
+      <option value="online"> Online Coaching </option>
+      <option value="inhouse">In-house Coaching</option>
+    </select>
+    <p>
+        <a href="#" id="back"> BACK </a>
+        <a href="#" id="find_coach"> FIND A COACH</a>
+    </p>
+</form>
+</div>
+
+<div id="results">
+  <div id="page">
+    <nav>
+      <ul><li> <a class="home" href="index.html"> C O A C H F I T </a></li>  </ul>
+      <ul><li> <a href="#"> Login</a>  </li>  </ul>
+    </nav>
+  <h1 class="title_forms"> </h1>
+
+  <section class = "profile_pic">
+
+  </section>
+  <div class = "record">
+     <p id="description"></p>
+   </div>
+  </div>
+</div>
+
 
 </body>
 

@@ -22,21 +22,23 @@ var trainers = [
 /***** START PROCESSING FORM *****/
 
 
+
+document.getElementById("client_start").onclick = processf1;
 function processf1(){
 
-          var client_name = document.form1.client_name.value;
+
           var client_username = document.form1.client_username.value;
-          var client_address = document.form1.client_address.value;
-          var client_city = document.form1.client_city.value;
-          var client_state = document.form1.client_state.value;
-          var client_zipcode = document.form1.client_zipcode.value;
-          var client_password = document.form1.client_password.value;
-          var client_gender = document.form1.client_gender.value;
+          // var client_address = document.form1.client_address.value;
+          // var client_city = document.form1.client_city.value;
+          // var client_state = document.form1.client_state.value;
+          // var client_zipcode = document.form1.client_zipcode.value;
+          // var client_password = document.form1.client_password.value;
+          // var client_gender = document.form1.client_gender.value;
 
 
 }
 
-document.getElementById("find_coach").onclick = processf2();
+document.getElementById("find_coach").onclick = processf2;
 
 function processf2(){
 

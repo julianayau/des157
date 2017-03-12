@@ -23,23 +23,31 @@ var trainers = [
 
 
 
-document.getElementById("client_start").onclick = processf1;
+document.getElementsByTagName("next").onclick = processf1();
+
 function processf1(){
+  console.log('poo');
 
+          var client_name = document.form.client_name.value;
 
-          var client_username = document.form1.client_username.value;
           // var client_address = document.form1.client_address.value;
           // var client_city = document.form1.client_city.value;
           // var client_state = document.form1.client_state.value;
           // var client_zipcode = document.form1.client_zipcode.value;
           // var client_password = document.form1.client_password.value;
           // var client_gender = document.form1.client_gender.value;
+          if (client_name == "" ) {
+              alert("Please enter your name");
+          } else {
 
+              // user innerHTML to concatenate a message and put it on the screen
+              greetings.innerHTML = 'Hello ' + client_name + " 'let's answer some questions about yourself!" + ".";
+
+          }
 
 }
 
-document.getElementById("find_coach").onclick = processf2;
-
+document.getElementsByTagName("find_coach").onclick = processf2();
 function processf2(){
 
 
@@ -79,8 +87,7 @@ function find_trainer(client_goal_value, client_diet_value, client_coach_value){
   document.getElementById("description").innerHTML = found;
 }
 
-document.getElementById('find_coach').onclick = change_to_results;
-function change_to_results(){
+
 
 
 });

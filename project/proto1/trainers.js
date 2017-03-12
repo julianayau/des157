@@ -23,7 +23,7 @@ var trainers = [
 
 
 
-document.getElementsByTagName("next").onclick = processf1();
+document.getElementsByTagName("next").onclick = processf1;
 
 function processf1(){
   console.log('poo');
@@ -47,7 +47,7 @@ function processf1(){
 
 }
 
-document.getElementsByTagName("find_coach").onclick = processf2();
+document.getElementsByTagName("find_coach").onclick = processf2;
 function processf2(){
 
 

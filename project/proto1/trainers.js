@@ -23,19 +23,13 @@ var trainers = [
 
 
 
-document.getElementsByClassName("next").onclick = processf1;
+document.getElementByClassName("next").onclick = processf1;
 
 function processf1(){
-  console.log('poo');
+console.log('poo');
 
           var client_name = document.form.client_name.value;
 
-          // var client_address = document.form1.client_address.value;
-          // var client_city = document.form1.client_city.value;
-          // var client_state = document.form1.client_state.value;
-          // var client_zipcode = document.form1.client_zipcode.value;
-          // var client_password = document.form1.client_password.value;
-          // var client_gender = document.form1.client_gender.value;
           if (client_name == "" ) {
               alert("Please enter your name");
           } else {
@@ -49,7 +43,6 @@ function processf1(){
 
 document.getElementsByClassName("find_coach").onclick = processf2;
 function processf2(){
-
 
   var client_goal = document.getElementById('client_goal');
   var client_goal_value = client_goal.options[client_goal.selectedIndex].text;

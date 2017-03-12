@@ -2,57 +2,108 @@
 
 /********** start index.html **********/
 body{
+	width: 100%;
+	background-color: #000;
+	font-family: Tahoma;
 	color: white;
+
+}
+
+/********* homepage *********/
+
+ body h1{
+	font-family: Tahoma;
+	padding-top: 50px;
+	font-size: 80px;
+	text-align: center;
+}
+
+ body h2{
+	font-family: Tahoma;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+body #client, #coach{
+	border: 5px solid #813737;
+	width: 300px;
+	height: 300px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	font-family: Tahoma;
+}
+
+#client{
+	float: right;
+	margin-right:200px;
+
+}
+
+#coach{
+	float: left;
+	margin-left:200px;
+}
+
+#client h3, #coach h3{
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+
+#client a, #coach a{
+	margin-left: 90px;
+
+	font-size: 20px;
+}
+
+nav ul li a{
+	margin-top: 20px;
+	margin-right: 100px;
 	font-family: Tahoma;
 
 }
-#homepage{
-	z-index: 1;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	background-color: #850A12;
 
+a{
+	text-decoration: none;
+	color: white;
 }
 
-#f1{
-	z-index: 0;
+nav{
 	width: 100%;
-	position: relative;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	background-color: #850A12;
+	height: 60px;
+	background-color: #813737;
 }
 
-#f2{
-	z-index: 0;
-	width: 100%;
-	position: relative;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	background-color:#850A12;
+#login{
+	float: right;
 }
 
-#results{
-	z-index: 0;
-	width: 100%;
-	position: relative;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	background-color: #850A12;
+#client_start{
+	border-radius: 10px 10px 10px 10px #eee;
+	box-shadow: 5px 5px 5px;
 }
-
 
 /********** end index.html **********/
 /********** start client_f1.html **********/
-
-
-.form_back{
+#logo{
+	float: left;
+	margin-left: 50px;
+}
+body form {
+	width: 700px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	border: 5px solid #813737;
+}
+form label{
+	font-family: Tahoma;
+	text-align: center;
+}
+/*.form_back{
 	width: 1000px;
 	height: 280px;
 	margin-top: 200px;
@@ -88,4 +139,4 @@ body{
 	box-shadow: 5px 5px 5px #000000;
 
 
-}
+}*/

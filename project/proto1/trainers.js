@@ -19,31 +19,6 @@ var trainers = [
 ];
 
 
-
-/****** change pages *******/
-
-document.getElementById('client_start').onclick = change_to_f1;
-
-function change_to_f1(){
-  document.getElementById("homepage").style.zIndex = "0";
-  document.getElementById("f2").style.zIndex = "-1";
-  document.getElementById("results").style.zIndex = "-2";
-  document.getElementById("f1").style.zIndex = "1";
-
-}
-
-
-document.getElementById('next').onclick = change_to_f2;
-function change_to_f2(){
-  document.getElementById("f1").style.zIndex = "-1";
-  document.getElementById("results").style.zIndex = "-2";
-  document.getElementById("homepage").style.zIndex = "0";
-  document.getElementById("f2").style.zIndex = "0";
-
-
-}
-
-
 /***** START PROCESSING FORM *****/
 
 
@@ -82,14 +57,14 @@ function processf2(){
 
 function find_trainer(client_goal_value, client_diet_value, client_coach_value){
 
-  var found ="";
+  var found = "";
 
   for (var i=0; i<trainers.length; i++){
 
     if(trainers[i].goal == client_goal_value){
       console.log(trainers[i].goal);
       if(trainers[i].diet_style == client_diet_value){
-      
+
         if(trainers[i].coaching_style == client_coach_value){
 
           found = '<div class="results">' + trainers[i].name + '</p><p>' + trainers[i].email + '</p><p>' + trainers[i].goal + '</p><p>' + trainers[i].diet_style + '</p><p>' + trainers[i].coaching_style + '</p></div>';
@@ -104,10 +79,6 @@ function find_trainer(client_goal_value, client_diet_value, client_coach_value){
 
 document.getElementById('find_coach').onclick = change_to_results;
 function change_to_results(){
-  document.getElementById("f1").style.zIndex = "0";
-  document.getElementById("homepage").style.zIndex = "0";
-  document.getElementById("f2").style.zIndex = "0";
-  document.getElementById("results").style.zIndex = "3";
-}
+
 
 });

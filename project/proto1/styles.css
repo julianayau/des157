@@ -54,7 +54,6 @@ body #client, #coach{
 
 #client a, #coach a{
 	margin-left: 90px;
-
 	font-size: 20px;
 }
 
@@ -81,8 +80,8 @@ nav{
 }
 
 #client_start{
-	border-radius: 10px 10px 10px 10px #eee;
-	box-shadow: 5px 5px 5px;
+	/*border-radius: 10px 10px 10px 10px #eee;
+	box-shadow: 5px 5px 5px;*/
 }
 
 /********** end index.html **********/
@@ -101,7 +100,9 @@ body form {
 }
 form label{
 	font-family: Tahoma;
-	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 /*.form_back{
 	width: 1000px;

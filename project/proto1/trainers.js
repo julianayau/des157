@@ -23,7 +23,7 @@ var trainers = [
 
 
 
-document.getElementByClassName("next").onclick = processf1;
+document.getElementsByClassName("next").onclick = processf1;
 
 function processf1(){
 console.log('poo');

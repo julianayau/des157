@@ -96,13 +96,96 @@ body form {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 70px;
+	padding-bottom: 50px;
+	margin-bottom: 30px;
 	border: 5px solid #813737;
+}
+
+label{
+	display: inline-block;
+	width: 140px;
+	float: left;
+	text-align: right;
+
 }
 form label{
 	font-family: Tahoma;
-	display: block;
+
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 25px;
+
+}
+
+ input{
+	font-family: Tahoma;
+	margin-bottom: 10px;
+	margin-left: 20px;
+
+}
+
+form,label, input{
+	margin-top: 25px;
+}
+
+select{
+	margin-top: 25px;
+	margin-left: 20px;
+	font-family: Tahoma;
+	direction: ltr;
+}
+form p a {
+	font-family: Tahoma;
+	float: right;
+	margin-right: 200px;
+
+}
+
+/********** start client_f1.html **********/
+
+.f2_label{
+	font-family: Tahoma;
+	float: none;
+	text-align: left;
+	width: 300px;
+}
+
+
+.f2_label, #client_goal, #client_diet, #client_coach {
+	margin-left: 100px;
+
+}
+
+#find_coach, #back{
+	margin-top: 80px;
+}
+
+/********** button style **********/
+
+a.button{
+ background-color:#813737;
+ border:1px solid #FFFEFC;
+ border-radius:5px;
+ color:#000;
+
+ padding:10px 10px 10px 10px;
+}
+
+a.button:hover{
+	background-color:#383838;
+}
+
+#client_start, #coach_start{
+	background-color:#813737;
+	border:1px solid #FFFEFC;
+	border-radius:5px;
+	color:#000;
+
+	 padding:10px 15px 15px 10px;
+}
+
+#client_start:hover, #coach_start:hover{
+	background-color:#383838;
 }
 /*.form_back{
 	width: 1000px;

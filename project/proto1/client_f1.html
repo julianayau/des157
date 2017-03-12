@@ -18,31 +18,40 @@
     </nav>
   <h2> HELLO</h2>
   <form name="form1">
-    <div>
 
+    <div>
+      <label> Name: </label><input type="text" name ="client_name"/>
     </div>
-    <label> Name:</label><input type="text" name ="client_name"/>
+    <div>
+      <label>Username: </label> <input type = "text" name = "client_username">
+    </div>
+      <div>
+        <label>Address: </label><input type = "text" name = "client_address">
+      </div>
+
+     <div>
+       <label>City:  </label> <input type = "text" name = "client_city">
+     </div>
+     <div>
+       <label>State: </label>  <input type = "text" name = "client_state">
+     </div>
+   <div>
+      <label>Zip Code: </label> <input type = "text" name = "client_zipcode">
+   </div>
+  <div>
+    <label>Password: </label> <input type = "text" name = "client_password" >
   </div>
    <div>
-      <label>Username:</label> <input type = "text" name = "client_username">
+     <label>Verify Passowrd: </label> <input type = "text" name = "client_verifypassword">
    </div>
-   <div>
-     <label>Address: </label><input type = "text" name = "client_address">
-   </div>
-   <div>
-      <label>City:</label> <input type = "text" name = "client_city">
-   </div>
-
-   <label>State:</label>  <input type = "text" name = "client_state">
-   <label>Zip Code:</label> <input type = "text" name = "client_zipcode"><br>
-   <label>Password:</label> <input type = "text" name = "client_password"><br>
-   <label>Verify Passowrd: </label><input type = "text" name = "client_verifypassword"><br>
-   <input type="radio" name="client_gender"> Male<br>
-   <input type="radio" name="client_gender" > Female<br>
-    <div>
+   <label> Gender: </label>
+   <select>
+     <option   value="male"> Male<br>
+       <option   value="female"> Female<br>
+   </select>
 
      <p>
-         <a href="client_f2.html" id="next">NEXT </a>
+         <a href="client_f2.html" class = "button" id="next">NEXT </a>
      </p>
   </form>
 

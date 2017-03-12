@@ -68,6 +68,9 @@ a{
 	text-decoration: none;
 	color: white;
 }
+a:hover{
+	color: black;
+}
 
 nav{
 	width: 100%;

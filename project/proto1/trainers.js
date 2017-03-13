@@ -19,6 +19,7 @@ var trainers = [
 ];
 
 
+
 var client_start = document.getElementById('client_start');
 var next = document.getElementById('next');
 var find_coach = document.getElementById('find_coach');
@@ -55,6 +56,7 @@ find_coach.addEventListener('click', function(){
 
 function processf2(){
 
+
   var client_goal_value = client_goal.options[client_goal.selectedIndex].text;
 
   var client_diet = document.getElementById("client_diet");
@@ -71,12 +73,12 @@ function processf2(){
 
 function find_trainer(client_goal_value, client_diet_value, client_coach_value){
 
-  var found = "";
-;
+var found = "";
+
   for (var i=0; i<trainers.length; i++){
 
     if(trainers[i].goal == client_goal_value){
-      console.log(trainers[0].goal );
+console.log(trainers[i].goal);
       if(trainers[i].diet_style == client_diet_value){
 
         if(trainers[i].coaching_style == client_coach_value){

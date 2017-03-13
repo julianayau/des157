@@ -2,11 +2,62 @@
 
 /********** start index.html **********/
 body{
-	width: 100%;
-	background-color: #000;
 	font-family: Tahoma;
 	color: white;
+}
 
+.container {
+	width:1400px;
+	height: 900px;
+	margin: auto;
+	background: #000;
+	position: relative;
+}
+
+#homepage {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 1400px;
+	height:900px;
+	background: #000;
+
+
+}
+
+#f1{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 1400px;
+	height:900px;
+background: #000;
+}
+
+#f2{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 1400px;
+	height:900px;
+background: #000;
+}
+
+#results{
+	position: relative;
+	top:0;
+	left: 0;
+	width: 1400px;
+	height:900px;
+background: #000;
+}
+
+.front {
+	z-index: 1;
+}
+
+.back {
+	z-index: 0;
 }
 
 /********* homepage *********/
@@ -78,7 +129,7 @@ nav{
 	background-color: #813737;
 }
 
-#login{
+.login{
 	float: right;
 }
 
@@ -89,7 +140,7 @@ nav{
 
 /********** end index.html **********/
 /********** start client_f1.html **********/
-#logo{
+.logo{
 	float: left;
 	margin-left: 50px;
 }
@@ -190,40 +241,3 @@ a.button:hover{
 #client_start:hover, #coach_start:hover{
 	background-color:#383838;
 }
-/*.form_back{
-	width: 1000px;
-	height: 280px;
-	margin-top: 200px;
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-bottom: 100px;
-	padding-bottom: 200px;
-	background-color: #813737;
-	opacity: 0.8;
-}
-
-
-
-.back{
-	float: left;
-	font-size: 18px;
-	height: 40px;
-	width: 150px;
-	margin-top: 50px;
-	margin-right: 300px;
-	border-radius: 10px 10px 10px 10px;
-	box-shadow: 5px 5px 5px #000000;
-}
-
-.next{
-  float: right;
-	font-size: 18px;
-	height: 40px;
-	width: 150px;
-  margin-top: 50px;
-  margin-right: 300px;
-	border-radius: 10px 10px 10px 10px;
-	box-shadow: 5px 5px 5px #000000;
-
-
-}*/

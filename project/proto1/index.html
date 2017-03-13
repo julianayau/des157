@@ -82,28 +82,25 @@
         <ul><li> <a class="logo" href="index.html">C O A C H F I T</a>  </li>  </ul>
         <ul><li> <a class = "login" href="#"> LOGIN </a></li> </ul>
       </nav>
-      <h2 id="greetings"> </h2>
+      <h2 id="greetings"></h2>
 
       <form>
-
           <label class="f2_label">What is your fitness/ health goal?</label>
           <div>
-            <select id= "client_goal">
-              <option   value="lose_body_fat"> Lose Body Fat</option>
-              <option  value = "gain_muscle"> Gain Muscle</option>
-              <option   value= "reverse_diet" > Reverse Diet</option>
+            <select id= "client_goal" name="client_goal">
+              <option   value="lose body fat"> Lose Body Fat</option>
+              <option  value = "gain muscle"> Gain Muscle</option>
+              <option   value= "reverse diet" > Reverse Diet</option>
               <option   value="bodybuilding" > Bodybuilding</option>
               <option   value ="powerlifting"> Powerlifting</option>
             </select>
           </div>
 
-
-
           <label class="f2_label">Dieting Style?</label>
           <div>
-            <select id="client_diet">
-                <option value="iifym"> IIFYM </option>
-                <option value="mealplan"> Meal Plan</option>
+            <select id="client_diet" name="client_diet">
+                <option value="IIFYM"> IIFYM </option>
+                <option value="meal plan"> Meal Plan</option>
               </select>
           </div>
 
@@ -111,15 +108,15 @@
 
           <label class="f2_label">Preference Of Coaching?</label>
           <div>
-            <select id ="client_coach" >
+            <select id ="client_coach" name="client_coach">
               <option value="online"> Online Coaching </option>
-              <option value="inhouse">In-house Coaching</option>
+              <option value="in-house">In-house Coaching</option>
             </select>
           </div>
 
           <p>
             <a href="#" id="find_coach" class = "button"> FIND A COACH</a>
-              <a href="#" id="back" class = "button" > BACK </a>
+              <!-- <a href="#" id="back" class = "button" > BACK </a> -->
 
           </p>
       </form>
@@ -131,17 +128,12 @@
         <ul><li> <a class="logo" href="index.html">C O A C H F I T</a>  </li>  </ul>
         <ul><li> <a class = "login" href="#"> LOGIN </a></li> </ul>
       </nav>
-        <h2 class="title_forms"> </h2>
 
-        <section class = "profile_pic">
+        <div class = "results">
+        <p id="found">
 
-        </section>
-        <div class = "results" onload="insertText();">
-           <p id="description"></p>
+        </p>
         </div>
-
-
-
   </article>
 
 </div>

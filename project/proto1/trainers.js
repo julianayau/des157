@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         },
         {
             "name": "Oscar Rodriguez",
-            "email": "oscar_rodriguez@yahoo.com.com",
+            "email": "oscar_rodriguez@yahoo.com",
             "goal": "bodybuilding",
             "diet_style": "IIFYM",
             "coaching_style": "in-house"
@@ -152,6 +152,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var client_diet_value = document.getElementById("client_diet").value;
         var client_coach_value = document.getElementById("client_coach").value;
 
+
+
+
         //alert(client_goal_value);
 
         find_trainer(client_goal_value, client_diet_value, client_coach_value);
@@ -168,11 +171,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
             //alert(trainers[i].goal);
             if (trainers[i].goal == client_goal_value) {
-
+              console.log(trainers[i].goal);
+              console.log(client_goal_value);
                 if (trainers[i].diet_style == client_diet_value) {
-
+                  console.log(trainers[i].diet_style );
+                  console.log(client_diet_value);
                     if (trainers[i].coaching_style == client_coach_value) {
-
+                        console.log(trainers[i].coaching_style);
+                        console.log(client_coach_value);
                         found = '<div class="results">' + 'Name: ' + trainers[i].name + '</p><p>' + 'Email: ' + trainers[i].email + '</p><p>' + "Coach's Goal: " + trainers[i].goal + '</p><p>' + "Coach's Diet Style: "+ trainers[i].diet_style + '</p><p>' + "Coach's Coaching Style: " +trainers[i].coaching_style + '</p></div>';
 
                     }

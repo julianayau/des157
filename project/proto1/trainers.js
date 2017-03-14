@@ -60,50 +60,50 @@ document.addEventListener("DOMContentLoaded", function(event) {
             "coaching_style": "in-house"
         },
         {
-            "name": "Juan Cox",
-            "email": "juan_cox@yahoo.com",
+            "name": "Saul Ramirez",
+            "email": "saul_ramirez@yahoo.com",
             "goal": "gain muscle",
             "diet_style": "IIFYM",
             "coaching_style": "in-house"
         },
         {
-            "name": "Ann Adams",
-            "email": "ann_adams@yahoo.com",
+            "name": "Juan De la Torre",
+            "email": "juan_torre@yahoo.com",
             "goal": "gain muscle",
             "diet_style": "meal plan",
             "coaching_style": "online"
         },
         {
-            "name": "Gregory Thomas",
-            "email": "gregory_thomas@yahoo.com",
+            "name": "Pablo Sanchez",
+            "email": "pablo_sanchez@yahoo.com",
             "goal": "gain muscle",
             "diet_style": "meal plan",
+            "coaching_style": "in-house"
+        },
+        {
+            "name": "Ramiro Fernandez",
+            "email": "ramiro_fernandez@yahoo.com",
+            "goal": "bodybuilding",
+            "diet_style": "IIFYM",
+            "coaching_style": "online"
+        },
+        {
+            "name": "Oscar Rodriguez",
+            "email": "oscar_rodriguez@yahoo.com.com",
+            "goal": "bodybuilding",
+            "diet_style": "IIFYM",
             "coaching_style": "in-house"
         },
         {
             "name": "Judith Mitchel",
             "email": "judith_mitchell@yahoo.com",
             "goal": "bodybuilding",
-            "diet_style": "IIFYM",
-            "coaching_style": "online"
-        },
-        {
-            "name": "Judith Mitchel",
-            "email": "judith_mitchell@yahoo.com",
-            "goal": "bodybuilding",
-            "diet_style": "IIFYM",
-            "coaching_style": "in-house"
-        },
-        {
-            "name": "Judith Mitchel",
-            "email": "judith_mitchell@yahoo.com",
-            "goal": "bodybuilding",
             "diet_style": "meal plan",
             "coaching_style": "online"
         },
         {
-            "name": "Judith Mitchel",
-            "email": "judith_mitchell@yahoo.com",
+            "name": "Rafael Velez",
+            "email": "rafael_velez@yahoo.com",
             "goal": "bodybuilding",
             "diet_style": "meal plan",
             "coaching_style": "in-house"

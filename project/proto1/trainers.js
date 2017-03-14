@@ -15,77 +15,98 @@ document.addEventListener("DOMContentLoaded", function(event) {
             "email": "fredy_aguilar@yahoo.com",
             "goal": "reverse diet",
             "diet_style": "IIFYM",
-            "coaching_style": "online"
+            "coaching_style": "in-house"
         },
         {
             "name": "Edward James",
             "email": "edward_james@yahoo.com",
-            "goal": "lose body fat",
+            "goal": "reverse diet",
             "diet_style": "meal plan",
-            "coaching_style": "in-house"
+            "coaching_style": "online"
         },
         {
             "name": "Julia Anderson",
             "email": "julia_anderson@yahoo.com",
-            "goal": "Bodybuilding",
-            "diet_style": "IIFYM",
-            "coaching_style": "online"
-        },
-        {
-            "name": "Norma Lopez",
-            "email": "norma_lopez@yahoo.com",
-            "goal": "Gain Muscle",
-            "diet_style": "meal plan",
-            "coaching_style": "online"
-        },
-        {
-            "name": "Roy	Griffin",
-            "email": "roy_griffin@yahoo.com",
-            "goal": "Powerlifting",
-            "diet_style": "meal plan",
-            "coaching_style": "in-house"
-        },
-        {
-            "name": "Alan Sanders",
-            "email": "alan_sanders@yahoo.com",
             "goal": "reverse diet",
             "diet_style": "meal plan",
             "coaching_style": "in-house"
         },
         {
-            "name": "Deboarah Sanders",
-            "email": "deborah_sanders@yahoo.com",
+            "name": "Norma Lopez",
+            "email": "norma_lopez@yahoo.com",
+            "goal": "lose body fat",
+            "diet_style": "IIFYM",
+            "coaching_style": "online"
+        },
+        {
+            "name": "Roy	Griffin",
+            "email": "roy_griffin@yahoo.com",
             "goal": "lose body fat",
             "diet_style": "IIFYM",
             "coaching_style": "in-house"
         },
         {
+            "name": "Alan Sanders",
+            "email": "alan_sanders@yahoo.com",
+            "goal": "lose body fat",
+            "diet_style": "meal plan",
+            "coaching_style": "online"
+        },
+        {
+            "name": "Deboarah Sanders",
+            "email": "deborah_sanders@yahoo.com",
+            "goal": "lose body fat",
+            "diet_style": "meal plan",
+            "coaching_style": "in-house"
+        },
+        {
             "name": "Juan Cox",
             "email": "juan_cox@yahoo.com",
-            "goal": "Bodybuilding",
+            "goal": "gain muscle",
             "diet_style": "IIFYM",
             "coaching_style": "in-house"
         },
         {
             "name": "Ann Adams",
             "email": "ann_adams@yahoo.com",
-            "goal": "Gain Muscle",
-            "diet_style": "IIFYM",
-            "coaching_style": "in-house"
+            "goal": "gain muscle",
+            "diet_style": "meal plan",
+            "coaching_style": "online"
         },
         {
             "name": "Gregory Thomas",
             "email": "gregory_thomas@yahoo.com",
-            "goal": "Powerlifting",
+            "goal": "gain muscle",
+            "diet_style": "meal plan",
+            "coaching_style": "in-house"
+        },
+        {
+            "name": "Judith Mitchel",
+            "email": "judith_mitchell@yahoo.com",
+            "goal": "bodybuilding",
+            "diet_style": "IIFYM",
+            "coaching_style": "online"
+        },
+        {
+            "name": "Judith Mitchel",
+            "email": "judith_mitchell@yahoo.com",
+            "goal": "bodybuilding",
             "diet_style": "IIFYM",
             "coaching_style": "in-house"
         },
         {
             "name": "Judith Mitchel",
             "email": "judith_mitchell@yahoo.com",
-            "goal": "reverse diet",
-            "diet_style": "IIFYM",
+            "goal": "bodybuilding",
+            "diet_style": "meal plan",
             "coaching_style": "online"
+        },
+        {
+            "name": "Judith Mitchel",
+            "email": "judith_mitchell@yahoo.com",
+            "goal": "bodybuilding",
+            "diet_style": "meal plan",
+            "coaching_style": "in-house"
         }
 
     ];

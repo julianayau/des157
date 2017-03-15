@@ -189,8 +189,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
                     if (trainers[i].coaching_style == client_coach_value) {
                         console.log(trainers[i].coaching_style);
                         console.log(client_coach_value);
-                        found = '<img id="profile_pic" src = "images/profile.png" alt = "profile picture>"' +  '<h1 id="coach_name"> ' + trainers[i].name + '</h1>'+ '</p><p>' + '<div class="results">' +
-                        "Email: "  + trainers[i].email  + '</p><p>' + "Coach's Goal: " + trainers[i].goal + '</p><p>' + "Coach's Diet Style: " + trainers[i].diet_style + '</p><p>' + "Coach's Coaching Style: " + trainers[i].coaching_style + '</p></div>'
+                        found = '<img id="profile_pic" src = "images/profile.png" alt = "profile picture">' +  '<h1 id="coach_name"> ' + trainers[i].name + '</h1>'+ '</p><p>' + '<div class="results">' +
+                        'EMAIL: <a href = "mailto:'+ trainers[i].email +' "> '  + trainers[i].email  + '</a></p><p>' + 'COACH\'S GOAL: ' + trainers[i].goal + '</p><p>' + 'DIET STYLE: ' + trainers[i].diet_style + '</p><p>' + 'COACHING STYLE: ' + trainers[i].coaching_style + '</p></div>'
 
                     }
                     else{

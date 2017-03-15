@@ -245,6 +245,7 @@ a.button:hover{
 
 /********* RESULTS PAGE **********/
  #found{
+
 	width: 500px;
 	height: 500px;
 	margin-left: auto;
@@ -256,11 +257,15 @@ a.button:hover{
 
 }
 
-/*#profile_pic{
-	width: 500px;
-	height: 500px;
-	float: left;
-	margin-left: 200px;
-	margin-top: 70px;
-	border: 5px solid #813737;
-}*/
+ p{
+	margin-left: 100px;
+
+}
+
+#profile_pic{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+
+}

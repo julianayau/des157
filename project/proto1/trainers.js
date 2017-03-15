@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
             "diet_style": "IIFYM",
             "coaching_style": "online"
         },
+
         {
             "name": "Roy	Griffin",
             "email": "roy_griffin@yahoo.com",
@@ -59,6 +60,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
             "diet_style": "meal plan",
             "coaching_style": "in-house"
         },
+        {
+            "name": "Juliana Yau",
+            "email": "juliana_yau@yahoo.com",
+            "goal": "lose body fat",
+            "diet_style": "meal plan",
+            "coaching_style": "in-house"
+        },
+
         {
             "name": "Saul Ramirez",
             "email": "saul_ramirez@yahoo.com",
@@ -167,6 +176,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         var found = "";
 
 
+
         for (var i = 0; i < trainers.length; i++) {
 
             //alert(trainers[i].goal);
@@ -179,7 +189,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
                     if (trainers[i].coaching_style == client_coach_value) {
                         console.log(trainers[i].coaching_style);
                         console.log(client_coach_value);
-                        found = '<div class="results">' + 'Name: ' + trainers[i].name + '</p><p>' + 'Email: ' + trainers[i].email + '</p><p>' + "Coach's Goal: " + trainers[i].goal + '</p><p>' + "Coach's Diet Style: "+ trainers[i].diet_style + '</p><p>' + "Coach's Coaching Style: " +trainers[i].coaching_style + '</p></div>';
+                        found = '<img id="profile_pic" src = "images/profile.png" alt = "profile picture>"' +  '<h1 id="coach_name"> ' + trainers[i].name + '</h1>'+ '</p><p>' + '<div class="results">' +
+                        "Email: "  + trainers[i].email  + '</p><p>' + "Coach's Goal: " + trainers[i].goal + '</p><p>' + "Coach's Diet Style: " + trainers[i].diet_style + '</p><p>' + "Coach's Coaching Style: " + trainers[i].coaching_style + '</p></div>'
 
                     }
                     else{
@@ -191,6 +202,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
             }
         }
         document.getElementById("found").innerHTML = found;
+
+
     }
 
 
